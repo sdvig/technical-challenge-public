@@ -1,0 +1,45 @@
+const productList = {
+  Nx0ADxQzrzQdfq3Yanwg: {
+    productId: "Nx0ADxQzrzQdfq3Yanwg",
+    amount: 3,
+    createdAt: "2022-04-12T13:07:30.546Z",
+    title: "Chocolate",
+    bulkAmount: 2,
+    bulkUnit: "Box",
+    singleUnit: "200grams box",
+    supplierArticleId: "0007",
+    ean: "ean1",
+  },
+  Bx0ADgqzqzKdfqxYwnwg: {
+    productId: "Bx0ADgqzqzKdfqxYwnwg",
+    amount: 0,
+    createdAt: "2022-04-12T13:07:30.546Z",
+    title: "White Wine",
+    bulkAmount: 0,
+    bulkUnit: "",
+    singleUnit: "750 ml Bottle",
+    supplierArticleId: "0007",
+    ean: "ean2",
+  },
+  Tx0ADxqzqzQdfqlYwnwg: {
+    productId: "Tx0ADxqzqzQdfqlYwnwg",
+    amount: 0,
+    createdAt: "2022-04-12T13:07:30.546Z",
+    title: "Red Wine",
+    bulkAmount: 5,
+    bulkUnit: "Box",
+    singleUnit: "750 ml Bottle",
+    supplierArticleId: "0007",
+    ean: "ean2",
+  },
+};
+
+export const fetchOrder = () => ({
+  id: "Q6yFYIKeKiAnd3TLWr7h",
+  supplierId: "Q4ZeSRlfeKUYH6vFFbz0",
+  createdAt: "2022-03-29T16:49:45.875Z",
+  orderNumber: "97e550c5-6729-4e2b-81ef-21b22434a02e",
+  buyerName: "Lidl Luisenstraße",
+  productList: productList,
+  buyerId: "QlAhGd89JJq92m",
+});

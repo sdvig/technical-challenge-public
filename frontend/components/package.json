@@ -1,0 +1,13 @@
+{
+  "name": "@hierfoods/components",
+  "version": "0.0.0",
+  "type": "module",
+  "main": "src/index.tsx",
+  "dependencies": {
+    "@chakra-ui/icons": "^1.1.7",
+    "@chakra-ui/react": "^1.8.5",
+    "@fontsource/inter": "^4.5.4",
+    "@fontsource/roboto": "^4.5.2",
+    "lodash": "^4.17.21"
+  }
+}
