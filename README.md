@@ -20,7 +20,7 @@ The repo is structured as a monorepo, with the following folder structure:
 ## Installation
 
 ```bash
-1. run `npm install` in the root folder to install all the dependencies
+1. run `npm install` in the root folder to install all the dependencies (try running npm install --force if you encounter any issues)
 2. run npm start:supplier to start the supplier app
 3. run npm run test in order to run the tests
 ```
